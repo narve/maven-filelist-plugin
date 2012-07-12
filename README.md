@@ -28,16 +28,16 @@ Sample usage (this will cause the plugin to generate the list before compilation
                 </configuration>
             </plugin>
             
-Documentation: 
+Configuration: 
 
-inputDirectory: What it seems. 
-includeRegExp:  What it seems. Follows Java regexp syntax (se example above)
-excludeRegExp:  What it seems. Follows Java regexp syntax (se example above)
-outputTemplate: Choose what to write for each file. Follow normal String.format syntax. Available vars are listed below. 
-outputFileName: What it seems
+ * inputDirectory: What it seems. 
+ * includeRegExp:  What it seems. Follows Java regexp syntax (se example above)
+ * excludeRegExp:  What it seems. Follows Java regexp syntax (se example above)
+ * outputTemplate: Choose what to write for each file. Follow normal String.format syntax. Available vars are listed below. 
+ * outputFileName: What it seems
 
-outputTemplate variables: 
-1: Absolute path of file
-2: Filename
-3: Filename without extension
-4: Extension
+Output template variables: 
+ 1. Absolute path of file
+ 2. Filename
+ 3. Filename without extension
+ 4. Extension
