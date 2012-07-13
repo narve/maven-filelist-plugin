@@ -2,9 +2,11 @@ maven-filelist-plugin
 =====================
 
 A simple maven plugin to generate a text-file containing a directory listing. 
-I didn't find plugin that did what I wanted, so I made my own. We use it in 
+I didn't find any plugin that did what I wanted, so I made my own. We use it in 
 a project to generate a list of JPA-classes. 
 
+If anybody actually uses this and have suggestions/improvements/bug reports, send me a 
+pull request. I promise not to be picky :)
 
 Sample usage (this will cause the plugin to generate the list before compilation/unit testing): 
 
@@ -33,7 +35,7 @@ Configuration:
  * inputDirectory: What it seems. 
  * includeRegExp:  What it seems. Follows Java regexp syntax (se example above)
  * excludeRegExp:  What it seems. Follows Java regexp syntax (se example above)
- * outputTemplate: Choose what to write for each file. Follow normal String.format syntax. Available vars are listed below. 
+ * outputTemplate: Choose what to write for each file. Follows normal String.format syntax. Available vars are listed below. 
  * outputFileName: What it seems
 
 Output template variables: 
